@@ -1,0 +1,13 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    .top__container{
+        text-align: center;
+        padding: 20px 0;
+        background-color: gray;
+    }
+    .bottom__container{
+        display: flex;
+        flex-direction: row;
+    }
+}

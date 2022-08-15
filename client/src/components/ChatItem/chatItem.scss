@@ -1,0 +1,19 @@
+.chatItem{
+    padding: 5px;
+    //background-color: #b0c4de;
+    .chat__element{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        .username{
+            padding-left: 10px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .message{
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+}
